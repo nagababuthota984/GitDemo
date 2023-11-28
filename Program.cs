@@ -4,11 +4,16 @@ using namespace GitDemo
     {
         public static void Main(string[] args)
         {
-            SayHello();
+            GreetHello();
+            GreetUser("Sena");
         }
 
-        public void static SayHello(){
+        public void static GreetHello(){
             Console.Writeline("Hello there!");
+        }
+
+        public void static GreetUser(string userName){
+            Console.Writeline($"Hi {userName}");
         }
     }
 }
