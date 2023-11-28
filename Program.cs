@@ -4,11 +4,11 @@ using namespace GitDemo
     {
         public static void Main(string[] args)
         {
-            SayHello();
+            SayHi();
         }
 
-        public void static SayHello(){
-            Console.Writeline("Hello there!");
+        public void static SayHi(){
+            Console.Writeline("Hi there!");
         }
     }
 }
